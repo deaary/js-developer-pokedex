@@ -70,6 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     pokemons.addEventListener('click', (event) => {
         const pokemon = event.target.closest('.noDecorator')
+        event.preventDefault()
 
         if (pokemon) {
             const accordion = pokemon.querySelector('.accordion-content')

@@ -118,17 +118,20 @@ a.noDecorator:active {
 .pokemon .stats {
     display: table;
     margin-top: 8px;
-}
-
-.stats tr {
-    display: flex;
-    align-items: center;
+    border-top: double black;
+    border-left: double black;
+    border-right: double black;
+    margin-left: 15px;
+    padding-right: 8px;
+    border-collapse: collapse;
 }
 
 .stats td {
-    flex: 1;
-    text-align: right;
-    padding: 5px;
+    flex: auto;
+    text-align: start;
+    text-transform: capitalize;
+    padding: 5px 5px 0px 5px;
+    border-bottom: double black;
 }
 
 .pokemon .detail {
